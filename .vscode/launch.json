@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Variables",
+      "request": "launch",
+      "mainClass": "java_basics.Variables",
+      "projectName": "java-jars_860726d4"
+    },
+    {
+      "type": "java",
       "name": "Launch Test",
       "request": "launch",
       "mainClass": "java_basics.Test",

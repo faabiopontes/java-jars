@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch LearningArrays",
+      "request": "launch",
+      "mainClass": "java_basics.LearningArrays",
+      "projectName": "java-jars_860726d4"
+    },
+    {
+      "type": "java",
       "name": "Launch VariablesContinued",
       "request": "launch",
       "mainClass": "java_basics.VariablesContinued",

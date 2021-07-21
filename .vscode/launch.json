@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ControlFlow",
+      "request": "launch",
+      "mainClass": "java_basics.ControlFlow",
+      "projectName": "java-jars_860726d4"
+    },
+    {
+      "type": "java",
       "name": "Launch LearningArrays",
       "request": "launch",
       "mainClass": "java_basics.LearningArrays",

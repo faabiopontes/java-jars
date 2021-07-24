@@ -24,3 +24,13 @@ I'm using Ubuntu, and I recommend everyone to use this link [https://linuxconfig
 - A instance with no variables reference to it becomes a candidate for Garbage Collection
 - Instances can have object instances as variables of it, like a `Car` has an `Engine`
 - In this case the `Engine` instance stays outside of the `Car` instance on the Heap
+
+## Inheritance VS Interfaces
+- Extending a class you get everything it has
+- Overriding we replace something that was extended from the parent class
+- An Interface is basically a contract
+- Abstract methods don't have body
+- Interfaces only have abstract methods
+- Classes which implement interfaces have to implement their methods
+- A class can one extend one other class
+- A class can implement multiples interfaces

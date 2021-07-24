@@ -2,9 +2,6 @@ package prerequisite_oop;
 
 public class Zoo {
   public static void main(String[] args) {
-    Animal animal1 = new Animal(16, 9, "M");
-    animal1.eat();
-
     Bird bird1 = new Bird(2, 1, "F");
     bird1.sleep();
 
@@ -16,5 +13,15 @@ public class Zoo {
 
     Sparrow sparrow1 = new Sparrow(1, 4, "M");
     sparrow1.fly();
+
+    moveAnimals(fish1);
+    moveAnimals(sparrow1);
+
+    Flyable flyingBird = new Sparrow(1 , 4, "M");
+    flyingBird.fly();
+  }
+
+  public static void moveAnimals(Animal animal) {
+    animal.move();
   }
 }

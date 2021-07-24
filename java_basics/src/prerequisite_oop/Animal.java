@@ -1,6 +1,6 @@
 package prerequisite_oop;
 
-public class Animal {
+public abstract class Animal {
   int age;
   int weightInLbs;
   String gender;
@@ -18,4 +18,6 @@ public class Animal {
   public void sleep() {
     System.out.println("Walking...");
   }
+
+  public abstract void move();
 }

@@ -1,0 +1,6 @@
+{
+  "java.project.sourcePaths": [
+    "java_basics/src",
+    "little_richard/src/silly_game"
+  ]
+}
